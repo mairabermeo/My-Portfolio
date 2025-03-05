@@ -1,10 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
     const navLinks = document.querySelectorAll(".nav-bar a");
-
     navLinks.forEach(link => {
         const text = link.innerText;
         let newHTML = "";
-
         for (let i = 0; i < text.length; i++) {
             if (text[i] === " ") {
                 newHTML += " "; 
@@ -14,7 +12,6 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         link.innerHTML = newHTML;
-
         link.addEventListener("mouseenter", () => {
             let delay = 0;
             link.querySelectorAll("span").forEach(span => {
@@ -35,4 +32,3 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
-
