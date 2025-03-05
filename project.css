@@ -26,6 +26,7 @@ nav {
     padding-left: clamp(1px, 3vw, 15px);
 }
 
+/*Main Body*/
 .nav-bar a:hover{
     color: #7b3d03;
 }
@@ -52,7 +53,7 @@ body {
     text-align: center;
     margin-bottom: 20px;
     color: white;
-    text-shadow: 6px 3px 6px rgba(0, 0, 0, 0.7);
+    text-shadow: 6px 3px 6px #000000b3;
 }
 
 .heading h1 img{
@@ -81,17 +82,16 @@ body {
 }
 .project img:hover{
     transform: scale(1.05);
-    box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 4px 3px #0000004d;
 }
 
 
 .project h3 {
     font-size: 24px; 
     color: rgb(255, 255, 255);
-    text-shadow: 6px 3px 6px rgba(0, 0, 0, 0.7);         
+    text-shadow: 6px 3px 6px #000000b3;         
     margin-bottom: 10px;
     background-color: #f1a864; 
     padding: 25px 20px;
     border-radius: 5px;        
 }
-
