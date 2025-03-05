@@ -31,6 +31,7 @@ nav {
     color: #7b3d03;
 }
 
+/* Main Body */
 body {
     padding-top: 70px;
     background: url('images/connect.webp') no-repeat center center;
@@ -49,7 +50,7 @@ body {
     text-align: center;
     margin-bottom: 20px;
     color: white;
-    text-shadow: 6px 3px 6px rgba(237, 202, 95, 0.7);
+    text-shadow: 6px 3px 6px #edca5fb3;
 }
 
 /*Socials */
