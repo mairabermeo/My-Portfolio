@@ -3,7 +3,6 @@ document.addEventListener("DOMContentLoaded", function () {
     let index = 0;
     const speed = 100;
     const target = document.getElementById("typewriter");
-
     if (target) {
         function typeWriter() {
             if (index < text.length) {
@@ -12,8 +11,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 setTimeout(typeWriter, speed);
             }
         }
-
         typeWriter();
     }
 });
-
