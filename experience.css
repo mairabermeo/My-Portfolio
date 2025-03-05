@@ -30,6 +30,7 @@ nav {
     color: #7b3d03;
 }
 
+/* Main Body */
 body {
     padding-top: 70px;
     background: linear-gradient(135deg, #f5cc28, #ff914d), url('images/about.webp') no-repeat center center;
@@ -49,7 +50,7 @@ body {
     text-align: center;
     margin-bottom: 20px;
     color: white;
-    text-shadow: 6px 3px 6px rgba(119, 84, 9, 0.7);
+    text-shadow: 6px 3px 6px #775409b3;
 }
 
 /* Job Section Styles */
@@ -96,7 +97,7 @@ body {
     height: 200px;
     object-fit: cover;
     border-radius: 10px;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out; /* Optional: for hover effect */
 }
 
 .job-section a {
@@ -108,7 +109,7 @@ body {
 
 .job-section img:hover {
     transform: scale(1.05);
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 4px 15px #0000004d;
 }
 
 .job-section ul {
