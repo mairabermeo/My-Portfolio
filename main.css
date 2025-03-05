@@ -1,0 +1,130 @@
+/* NAVBAR */
+nav {
+    background-color: #f68922;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: clamp(5px, 3vw, 15px) clamp(10px, 3vw, 50px); 
+    height: 60px;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+}
+
+.nav-bar {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    padding-left: clamp(1px, 3vw, 15px);
+}
+
+.nav-bar a:hover{
+    color: #7b3d03;
+}
+
+body {
+    padding-top: 70px;
+    background: url('images/about.webp') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed; 
+    padding-top: 70px;
+    height: 100%;
+    margin: 0;
+
+}
+
+/* INFO SECTION */
+.heading h1 {
+    padding-top: 20px;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 6px 3px 6px rgba(0, 0, 0, 0.7);
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    padding: 50px 20px;
+    color: white;
+    margin: auto; 
+}
+
+.headshot img {
+    width: 500px; 
+    height: 500px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid white; 
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    text-align: left; 
+    max-width: 600px; 
+}
+
+.description p {
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: center;
+    background-color: #faab5f;
+    color: white;
+    padding: 20px; 
+    border-radius: 10px; 
+}
+
+/* CLUB LIFE SECTION */
+.club-life {
+    display: flex;
+    flex-direction: column; 
+    gap: 5px; 
+    align-items: center; 
+    padding-bottom: 20px;
+}
+
+.club {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    padding-left: 350px;
+    row-gap: 20px;
+}
+
+.club img {
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.club img:hover {
+    transform: scale(1.05);
+    box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.3);
+}
+
+
+.club-info p {
+    margin-left: 150px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(67, 55, 12);
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+

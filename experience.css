@@ -1,0 +1,135 @@
+/* NAVBAR */
+nav {
+    background-color: #f68922;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: clamp(5px, 3vw, 15px) clamp(10px, 3vw, 50px); 
+    height: 60px;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+}
+
+.nav-bar {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    padding-left: clamp(1px, 3vw, 15px);
+}
+
+.nav-bar a:hover{
+    color: #7b3d03;
+}
+
+body {
+    padding-top: 70px;
+    background: linear-gradient(135deg, #f5cc28, #ff914d), url('images/about.webp') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    margin: 0;
+    color: white;
+    font-weight: bolder;
+}
+
+
+.heading h1 {
+    padding-top: 20px;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 6px 3px 6px rgba(119, 84, 9, 0.7);
+}
+
+/* Job Section Styles */
+.jobs {
+    margin-top: 30px;
+}
+
+.job-section {
+    position: relative;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.job-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-top: 5px solid #ff914d;
+    margin-bottom: 10px;
+}
+
+.job-section h2{
+    margin: 0;
+    font-size: 45px;
+    text-align: center;
+}
+
+.job-section h4{
+    margin: 0;
+    font-size: 25px;
+
+}
+
+.job-section .date {
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.job-section img {
+    width: 425px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out; /* Optional: for hover effect */
+}
+
+.job-section a {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.job-section img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.job-section ul {
+    padding-left: 20px;
+    width: 60%; 
+    list-style-type: disc;
+}
+
+.job-section .description {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+.job-section .description ul {
+    margin: 0;
+    padding: 0;
+}
+.job-section .description li {
+    padding-bottom: 15px;
+    padding-left: 35px;
+    font-size: 18px;
+}

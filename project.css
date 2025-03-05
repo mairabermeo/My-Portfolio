@@ -1,0 +1,97 @@
+/* NAVBAR */
+nav {
+    background-color: #f68922;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: clamp(5px, 3vw, 15px) clamp(10px, 3vw, 50px); 
+    height: 60px;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+}
+
+.nav-bar {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    padding-left: clamp(1px, 3vw, 15px);
+}
+
+.nav-bar a:hover{
+    color: #7b3d03;
+}
+
+body {
+    padding-top: 70px;
+    background: url('images/project.webp') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed; 
+    padding-top: 70px;
+    height: 100%;
+    margin: 0;
+
+}
+
+.heading h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 6px 3px 6px rgba(0, 0, 0, 0.7);
+}
+
+.heading h1 img{
+    height: 100px;
+    padding-top: 20px;
+}
+
+/* Projects */
+.project {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;  
+    text-align: center;     
+    margin: 20px;           
+}
+
+.project img {
+    width: 100%;           
+    max-width: 800px;       
+    height: auto;          
+    margin-top: 10px; 
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 15px;       
+}
+.project img:hover{
+    transform: scale(1.05);
+    box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.3);
+}
+
+
+.project h3 {
+    font-size: 24px; 
+    color: rgb(255, 255, 255);
+    text-shadow: 6px 3px 6px rgba(0, 0, 0, 0.7);         
+    margin-bottom: 10px;
+    background-color: #f1a864; 
+    padding: 25px 20px;
+    border-radius: 5px;        
+}
+
